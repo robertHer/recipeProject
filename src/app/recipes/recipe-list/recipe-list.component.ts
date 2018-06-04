@@ -7,7 +7,7 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  recipes: Recipe[]=[{
+  recipe: Recipe[]=[{
     name:"A new recipe",
     description:"test recipe",
     imagePath: 'http://assets.kraftfoods.com/recipe_images/opendeploy/56799_640x428.jpg'
