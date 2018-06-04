@@ -3,5 +3,10 @@
     <shoping-edit></shoping-edit>
     <hr>
     <p>the list</p>
+
+    <a href="" alt="" class="list-group-item" *ngFor="let ingredient of Ingredient">
+        {{ ingredient.name }} ({{ ingredient.amount }})
+      
+    </a>
   </div>
 </div>
