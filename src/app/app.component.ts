@@ -10,5 +10,5 @@ export class AppComponent {
   navigate(feature:string){
     console.log('set new feature: ' , feature)
   }
-
+  
 }
