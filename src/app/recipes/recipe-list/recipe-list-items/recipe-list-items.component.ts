@@ -9,7 +9,7 @@ export class RecipeListItemsComponent implements OnInit {
   @Input() recipe:Recipe;  
   @Output() recipeWasSelected:string = new EventEmmiter <Recipe>();
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }
